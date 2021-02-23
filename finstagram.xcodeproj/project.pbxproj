@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2B7BF625E48C5C00A47FE9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */; };
+		1CDFA25325E47F2400539DDD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFA25225E47F2400539DDD /* LogInViewController.swift */; };
+		1CDFA25825E47F3200539DDD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFA25725E47F3200539DDD /* FeedViewController.swift */; };
+		1CF55F8A25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
+		1CF55F8B25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
+		1CF55F8C25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
 		1CFD23FA25E4673B005E82E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD23F925E4673B005E82E6 /* AppDelegate.swift */; };
 		1CFD23FC25E4673B005E82E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD23FB25E4673B005E82E6 /* SceneDelegate.swift */; };
-		1CFD23FE25E4673B005E82E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD23FD25E4673B005E82E6 /* ViewController.swift */; };
 		1CFD240125E4673B005E82E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD23FF25E4673B005E82E6 /* Main.storyboard */; };
 		1CFD240325E4673B005E82E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD240225E4673B005E82E6 /* Assets.xcassets */; };
 		1CFD240625E4673B005E82E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD240425E4673B005E82E6 /* LaunchScreen.storyboard */; };
 		1CFD241125E4673C005E82E6 /* finstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD241025E4673C005E82E6 /* finstagramTests.swift */; };
 		1CFD241C25E4673C005E82E6 /* finstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD241B25E4673C005E82E6 /* finstagramUITests.swift */; };
+		1E25C2C3F0635513C98D6DE7 /* Pods_finstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB14FA6D0C7D880FD55C4BE /* Pods_finstagram.framework */; };
+		1FC3B3F8627A2E6E452BD6F2 /* Pods_finstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C378D7D49827D583A73F7851 /* Pods_finstagramTests.framework */; };
+		A2453EFBE567282AEF63AF65 /* Pods_finstagram_finstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C75A0078CE70BFC7D87F82 /* Pods_finstagram_finstagramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D85FFA5286AC29EDA21B31 /* Pods-finstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagram.debug.xcconfig"; path = "Target Support Files/Pods-finstagram/Pods-finstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1CDFA25225E47F2400539DDD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1CDFA25725E47F3200539DDD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CFD23F625E4673B005E82E6 /* finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD23F925E4673B005E82E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFD23FB25E4673B005E82E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CFD23FD25E4673B005E82E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CFD240025E4673B005E82E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CFD240225E4673B005E82E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CFD240525E4673B005E82E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		1CFD241725E4673C005E82E6 /* finstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD241B25E4673C005E82E6 /* finstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finstagramUITests.swift; sourceTree = "<group>"; };
 		1CFD241D25E4673C005E82E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6A71FFC86059B5C2707FDE /* Pods-finstagram-finstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagram-finstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-finstagram-finstagramUITests/Pods-finstagram-finstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60C75A0078CE70BFC7D87F82 /* Pods_finstagram_finstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finstagram_finstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		670436A0229B764D2A01D23F /* Pods-finstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagramTests.release.xcconfig"; path = "Target Support Files/Pods-finstagramTests/Pods-finstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BCB93CC8B120ADEAA661580 /* Pods-finstagram-finstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagram-finstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-finstagram-finstagramUITests/Pods-finstagram-finstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E4B9BDFDB485222E381FCB8 /* Pods-finstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-finstagramTests/Pods-finstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9E93C4DC18E7F2F7F5BBA5 /* Pods-finstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagram.release.xcconfig"; path = "Target Support Files/Pods-finstagram/Pods-finstagram.release.xcconfig"; sourceTree = "<group>"; };
+		C378D7D49827D583A73F7851 /* Pods_finstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB14FA6D0C7D880FD55C4BE /* Pods_finstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E25C2C3F0635513C98D6DE7 /* Pods_finstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC3B3F8627A2E6E452BD6F2 /* Pods_finstagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2453EFBE567282AEF63AF65 /* Pods_finstagram_finstagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E7110343574E8207040E63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01D85FFA5286AC29EDA21B31 /* Pods-finstagram.debug.xcconfig */,
+				BE9E93C4DC18E7F2F7F5BBA5 /* Pods-finstagram.release.xcconfig */,
+				7BCB93CC8B120ADEAA661580 /* Pods-finstagram-finstagramUITests.debug.xcconfig */,
+				5D6A71FFC86059B5C2707FDE /* Pods-finstagram-finstagramUITests.release.xcconfig */,
+				7E4B9BDFDB485222E381FCB8 /* Pods-finstagramTests.debug.xcconfig */,
+				670436A0229B764D2A01D23F /* Pods-finstagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1CFD23ED25E4673B005E82E6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				1CFD240F25E4673C005E82E6 /* finstagramTests */,
 				1CFD241A25E4673C005E82E6 /* finstagramUITests */,
 				1CFD23F725E4673B005E82E6 /* Products */,
+				18E7110343574E8207040E63 /* Pods */,
+				E939B42098D7A88882B56C92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +137,16 @@
 		1CFD23F825E4673B005E82E6 /* finstagram */ = {
 			isa = PBXGroup;
 			children = (
+				1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */,
 				1CFD23F925E4673B005E82E6 /* AppDelegate.swift */,
 				1CFD23FB25E4673B005E82E6 /* SceneDelegate.swift */,
-				1CFD23FD25E4673B005E82E6 /* ViewController.swift */,
 				1CFD23FF25E4673B005E82E6 /* Main.storyboard */,
 				1CFD240225E4673B005E82E6 /* Assets.xcassets */,
 				1CFD240425E4673B005E82E6 /* LaunchScreen.storyboard */,
 				1CFD240725E4673B005E82E6 /* Info.plist */,
+				1CDFA25225E47F2400539DDD /* LogInViewController.swift */,
+				1CDFA25725E47F3200539DDD /* FeedViewController.swift */,
+				1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */,
 			);
 			path = finstagram;
 			sourceTree = "<group>";
@@ -128,6 +169,16 @@
 			path = finstagramUITests;
 			sourceTree = "<group>";
 		};
+		E939B42098D7A88882B56C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB14FA6D0C7D880FD55C4BE /* Pods_finstagram.framework */,
+				60C75A0078CE70BFC7D87F82 /* Pods_finstagram_finstagramUITests.framework */,
+				C378D7D49827D583A73F7851 /* Pods_finstagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFD242025E4673C005E82E6 /* Build configuration list for PBXNativeTarget "finstagram" */;
 			buildPhases = (
+				C891056B6221A36ADCC30C1D /* [CP] Check Pods Manifest.lock */,
 				1CFD23F225E4673B005E82E6 /* Sources */,
 				1CFD23F325E4673B005E82E6 /* Frameworks */,
 				1CFD23F425E4673B005E82E6 /* Resources */,
+				90C07A43D34D44EAA31B0E96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFD242325E4673C005E82E6 /* Build configuration list for PBXNativeTarget "finstagramTests" */;
 			buildPhases = (
+				AC42E82506ADDFA9FBB42528 /* [CP] Check Pods Manifest.lock */,
 				1CFD240825E4673B005E82E6 /* Sources */,
 				1CFD240925E4673B005E82E6 /* Frameworks */,
 				1CFD240A25E4673B005E82E6 /* Resources */,
+				EB0ED64E143F4A41C61679B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFD242625E4673C005E82E6 /* Build configuration list for PBXNativeTarget "finstagramUITests" */;
 			buildPhases = (
+				FB7C513345E967A2234BC119 /* [CP] Check Pods Manifest.lock */,
 				1CFD241325E4673C005E82E6 /* Sources */,
 				1CFD241425E4673C005E82E6 /* Frameworks */,
 				1CFD241525E4673C005E82E6 /* Resources */,
+				F265A15C9D013EA220FE8419 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFD240625E4673B005E82E6 /* LaunchScreen.storyboard in Resources */,
+				1CF55F8A25E47A42001DE820 /* GoogleService-Info.plist in Resources */,
 				1CFD240325E4673B005E82E6 /* Assets.xcassets in Resources */,
 				1CFD240125E4673B005E82E6 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF55F8B25E47A42001DE820 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +307,142 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF55F8C25E47A42001DE820 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90C07A43D34D44EAA31B0E96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finstagram/Pods-finstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finstagram/Pods-finstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finstagram/Pods-finstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC42E82506ADDFA9FBB42528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C891056B6221A36ADCC30C1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0ED64E143F4A41C61679B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finstagramTests/Pods-finstagramTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finstagramTests/Pods-finstagramTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finstagramTests/Pods-finstagramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F265A15C9D013EA220FE8419 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finstagram-finstagramUITests/Pods-finstagram-finstagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finstagram-finstagramUITests/Pods-finstagram-finstagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finstagram-finstagramUITests/Pods-finstagram-finstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7C513345E967A2234BC119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finstagram-finstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CFD23F225E4673B005E82E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CFD23FE25E4673B005E82E6 /* ViewController.swift in Sources */,
 				1CFD23FA25E4673B005E82E6 /* AppDelegate.swift in Sources */,
 				1CFD23FC25E4673B005E82E6 /* SceneDelegate.swift in Sources */,
+				1CDFA25825E47F3200539DDD /* FeedViewController.swift in Sources */,
+				1CDFA25325E47F2400539DDD /* LogInViewController.swift in Sources */,
+				1C2B7BF625E48C5C00A47FE9 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +615,7 @@
 		};
 		1CFD242125E4673C005E82E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D85FFA5286AC29EDA21B31 /* Pods-finstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +635,7 @@
 		};
 		1CFD242225E4673C005E82E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9E93C4DC18E7F2F7F5BBA5 /* Pods-finstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +655,7 @@
 		};
 		1CFD242425E4673C005E82E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4B9BDFDB485222E381FCB8 /* Pods-finstagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +678,7 @@
 		};
 		1CFD242525E4673C005E82E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670436A0229B764D2A01D23F /* Pods-finstagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +701,7 @@
 		};
 		1CFD242725E4673C005E82E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCB93CC8B120ADEAA661580 /* Pods-finstagram-finstagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +722,7 @@
 		};
 		1CFD242825E4673C005E82E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6A71FFC86059B5C2707FDE /* Pods-finstagram-finstagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
