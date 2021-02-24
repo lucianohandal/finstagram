@@ -10,6 +10,7 @@
 		1C2B7BF625E48C5C00A47FE9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */; };
 		1CDFA25325E47F2400539DDD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFA25225E47F2400539DDD /* LogInViewController.swift */; };
 		1CDFA25825E47F3200539DDD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFA25725E47F3200539DDD /* FeedViewController.swift */; };
+		1CE42C3125E5D39800BDAE9C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE42C3025E5D39800BDAE9C /* CameraViewController.swift */; };
 		1CF55F8A25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
 		1CF55F8B25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
 		1CF55F8C25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
@@ -47,6 +48,7 @@
 		1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1CDFA25225E47F2400539DDD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1CDFA25725E47F3200539DDD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1CE42C3025E5D39800BDAE9C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CFD23F625E4673B005E82E6 /* finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD23F925E4673B005E82E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				1CDFA25225E47F2400539DDD /* LogInViewController.swift */,
 				1CDFA25725E47F3200539DDD /* FeedViewController.swift */,
 				1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */,
+				1CE42C3025E5D39800BDAE9C /* CameraViewController.swift */,
 			);
 			path = finstagram;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				1CDFA25825E47F3200539DDD /* FeedViewController.swift in Sources */,
 				1CDFA25325E47F2400539DDD /* LogInViewController.swift in Sources */,
 				1C2B7BF625E48C5C00A47FE9 /* SignUpViewController.swift in Sources */,
+				1CE42C3125E5D39800BDAE9C /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
