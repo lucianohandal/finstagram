@@ -70,38 +70,37 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                     }
                     let postsRef = storageRef.child("images/\(fileName).png")
                     
-//                    let uploadTask = postsRef.putData(data, metadata: nil) { (metadata, error) in
-//                      guard let metadata = metadata else {
-//                        return
-//                      }
+                    _ = postsRef.putData(data, metadata: nil) { (metadata, error) in
+                      guard let metadata = metadata else {
+                        return
+                      }
 //                      let size = metadata.size
-//                        postsRef.downloadURL { (url, error) in
-//                        guard let downloadURL = url else {
-//                          return
-//                        }
-                    
-                    print(user_posts)
-                    
-                    self.db.collection("posts").document(fileName).setData([
-                        "user": username,
-                        "uid": uid,
-//                                "downloadURL": downloadURL,
-                        "caption": self.commentField.text ?? ""
-                    ]) { err in
-                        if let err = err {
-                            print("Error adding document: \(err)")
-                        } else {
-                            print("Document added")
+                        postsRef.downloadURL {
+                            (url, error) in
+                            guard let downloadURL = url else {
+                                return
+                            }
+                            self.db.collection("posts").document(fileName).setData([
+                                "user": username,
+                                "uid": uid,
+                                "downloadURL": "\(downloadURL)",
+                                "caption": self.commentField.text ?? ""
+                            ]) { err in
+                                if let err = err {
+                                    print("Error adding document: \(err)")
+                                } else {
+                                    print("Document added")
+                                }
+                            }
+                            user_posts.append(self.db.collection("posts").document(fileName))
+                            self.db.collection("users").document(username).setData([ "posts": user_posts ], merge: true)
                         }
                     }
-                    user_posts.append(self.db.collection("posts").document(fileName))
-                    self.db.collection("users").document(username).setData([ "posts": user_posts ], merge: true)
+                    print(user_posts)
               }
             }
-            
-
-            
         }
+        self.dismiss(animated: true, completion: nil)
     }
 }
         
