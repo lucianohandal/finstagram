@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1C2B7BF625E48C5C00A47FE9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */; };
+		1C65D0AB25E6F3FB00BBB8B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C65D0AA25E6F3FB00BBB8B7 /* GoogleService-Info.plist */; };
+		1C65D0AC25E6F3FB00BBB8B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C65D0AA25E6F3FB00BBB8B7 /* GoogleService-Info.plist */; };
+		1C65D0AD25E6F3FB00BBB8B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C65D0AA25E6F3FB00BBB8B7 /* GoogleService-Info.plist */; };
 		1CDFA25325E47F2400539DDD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFA25225E47F2400539DDD /* LogInViewController.swift */; };
 		1CDFA25825E47F3200539DDD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFA25725E47F3200539DDD /* FeedViewController.swift */; };
 		1CE42C3125E5D39800BDAE9C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE42C3025E5D39800BDAE9C /* CameraViewController.swift */; };
-		1CF55F8A25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
-		1CF55F8B25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
-		1CF55F8C25E47A42001DE820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */; };
 		1CFD23FA25E4673B005E82E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD23F925E4673B005E82E6 /* AppDelegate.swift */; };
 		1CFD23FC25E4673B005E82E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD23FB25E4673B005E82E6 /* SceneDelegate.swift */; };
 		1CFD240125E4673B005E82E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD23FF25E4673B005E82E6 /* Main.storyboard */; };
@@ -46,10 +46,10 @@
 /* Begin PBXFileReference section */
 		01D85FFA5286AC29EDA21B31 /* Pods-finstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finstagram.debug.xcconfig"; path = "Target Support Files/Pods-finstagram/Pods-finstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		1C2B7BF525E48C5C00A47FE9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1C65D0AA25E6F3FB00BBB8B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CDFA25225E47F2400539DDD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		1CDFA25725E47F3200539DDD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		1CE42C3025E5D39800BDAE9C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CFD23F625E4673B005E82E6 /* finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD23F925E4673B005E82E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFD23FB25E4673B005E82E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		1CFD23F825E4673B005E82E6 /* finstagram */ = {
 			isa = PBXGroup;
 			children = (
-				1CF55F8925E47A42001DE820 /* GoogleService-Info.plist */,
+				1C65D0AA25E6F3FB00BBB8B7 /* GoogleService-Info.plist */,
 				1CFD23F925E4673B005E82E6 /* AppDelegate.swift */,
 				1CFD23FB25E4673B005E82E6 /* SceneDelegate.swift */,
 				1CFD23FF25E4673B005E82E6 /* Main.storyboard */,
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFD240625E4673B005E82E6 /* LaunchScreen.storyboard in Resources */,
-				1CF55F8A25E47A42001DE820 /* GoogleService-Info.plist in Resources */,
+				1C65D0AB25E6F3FB00BBB8B7 /* GoogleService-Info.plist in Resources */,
 				1CFD240325E4673B005E82E6 /* Assets.xcassets in Resources */,
 				1CFD240125E4673B005E82E6 /* Main.storyboard in Resources */,
 			);
@@ -302,7 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF55F8B25E47A42001DE820 /* GoogleService-Info.plist in Resources */,
+				1C65D0AC25E6F3FB00BBB8B7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF55F8C25E47A42001DE820 /* GoogleService-Info.plist in Resources */,
+				1C65D0AD25E6F3FB00BBB8B7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

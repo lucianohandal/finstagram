@@ -7,15 +7,21 @@
 
 import UIKit
 import AlamofireImage
+import Firebase
+import FirebaseAuth
+import FirebaseFirestore
+import FirebaseStorage
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var commentField: UITextField!
+    
+    let db = Firestore.firestore()
+    let storage = Storage.storage()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func launchCamera(_ sender: Any) {
@@ -34,13 +40,76 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image = info[.editedImage] as! UIImage
         let size = CGSize(width: 374, height: 374)
-        let scaledImage = image.af_imageScaled(to: size)
+        let scaledImage = image.af.imageScaled(to: size)
         imageView.image = scaledImage
         dismiss(animated: true, completion: nil)
         
     }
     @IBAction func shareBtn(_ sender: Any) {
+        guard let uid = Auth.auth().currentUser?.uid else {
+                return
+        }
+        db.collection("users").whereField("uid", isEqualTo: uid).getDocuments() { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+                for document in querySnapshot!.documents {
+                    let user = document.data()
+                    guard let  username = user["username"] as? String else {
+                        return
+                    }
+                    var user_posts = user["posts"] as? Array<DocumentReference> ?? []
+                    
+                    let fileName = "\(username)\(user_posts.count)"
+                    
+                    let storageRef = self.storage.reference()
+                    
+                    guard let data = self.imageView.image?.pngData() else {
+                        print("Image issue")
+                        return
+                    }
+                    let postsRef = storageRef.child("images/\(fileName).png")
+                    
+//                    let uploadTask = postsRef.putData(data, metadata: nil) { (metadata, error) in
+//                      guard let metadata = metadata else {
+//                        return
+//                      }
+//                      let size = metadata.size
+//                        postsRef.downloadURL { (url, error) in
+//                        guard let downloadURL = url else {
+//                          return
+//                        }
+                    
+                    print(user_posts)
+                    
+                    self.db.collection("posts").document(fileName).setData([
+                        "user": username,
+                        "uid": uid,
+//                                "downloadURL": downloadURL,
+                        "caption": self.commentField.text ?? ""
+                    ]) { err in
+                        if let err = err {
+                            print("Error adding document: \(err)")
+                        } else {
+                            print("Document added")
+                        }
+                    }
+                    user_posts.append(self.db.collection("posts").document(fileName))
+                    self.db.collection("users").document(username).setData([ "posts": user_posts ], merge: true)
+              }
+            }
+            
+
+            
+        }
     }
+}
+        
+        
+
+        
+
+
     
     /*
     // MARK: - Navigation
@@ -52,4 +121,4 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     */
 
-}
+

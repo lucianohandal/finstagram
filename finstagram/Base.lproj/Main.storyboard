@@ -167,7 +167,7 @@
                                 </constraints>
                                 <state key="normal" title="Share"/>
                                 <connections>
-                                    <action selector="shareBtn:" destination="0CU-oC-8Z5" eventType="touchUpInside" id="nm5-om-Xwi"/>
+                                    <action selector="shareBtn:" destination="0CU-oC-8Z5" eventType="touchUpInside" id="X6R-Vc-n2L"/>
                                 </connections>
                             </button>
                         </subviews>

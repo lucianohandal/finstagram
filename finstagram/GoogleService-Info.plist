@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>963838956892-7h03m4q6hnng4287nerq4psb3a2tm2np.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.963838956892-7h03m4q6hnng4287nerq4psb3a2tm2np</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZ4B_oTuXeZcRwPOtVGAC0NZ3BKAYbc7A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>963838956892</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>handal.finstagram</string>
+	<key>PROJECT_ID</key>
+	<string>finstagram-lhb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>finstagram-lhb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:963838956892:ios:433903acc5858db7e85d99</string>
+</dict>
+</plist>

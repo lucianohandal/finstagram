@@ -54,9 +54,11 @@ class SignUpViewController: UIViewController {
             if let _eror = error {
                 print(_eror.localizedDescription )
             }else{
+                let uid = Auth.auth().currentUser?.uid  ?? "null"
                 let docData:[String: Any] = [
                     "email": email,
-                    "username": username]
+                    "username": username,
+                    "uid": uid]
                 
                 self.db.collection("users").document(username).setData(docData) { err in
                     if let err = err {
