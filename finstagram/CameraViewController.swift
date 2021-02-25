@@ -83,6 +83,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                             self.db.collection("posts").document(fileName).setData([
                                 "user": username,
                                 "uid": uid,
+                                "id": fileName,
                                 "downloadURL": "\(downloadURL)",
                                 "caption": self.commentField.text ?? ""
                             ]) { err in
