@@ -30,16 +30,18 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("viewDidAppear")
         
-        db.collection("posts").limit(to: post_limit).getDocuments() { (querySnapshot, err) in
+        print("viewDidAppear")
+        posts.removeAll()
+        db.collection("posts").order(by: "timestamp", descending: true).limit(to: post_limit).getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
             } else {
                 print("got \(querySnapshot!.documents.count) docs")
+                
                 for document in querySnapshot!.documents {
                     self.posts.append(document.data())
-                    print("Hola", document.data())
+//                    print(document.data())
                 }
                 self.tableView.reloadData()
             }

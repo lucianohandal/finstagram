@@ -52,6 +52,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         db.collection("users").whereField("uid", isEqualTo: uid).getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
+                self.dismiss(animated: true, completion: nil)
             } else {
                 for document in querySnapshot!.documents {
                     let user = document.data()
@@ -85,12 +86,15 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                                 "uid": uid,
                                 "id": fileName,
                                 "downloadURL": "\(downloadURL)",
-                                "caption": self.commentField.text ?? ""
+                                "caption": self.commentField.text ?? "",
+                                "timestamp": NSDate()
                             ]) { err in
                                 if let err = err {
                                     print("Error adding document: \(err)")
+                                    self.dismiss(animated: true, completion: nil)
                                 } else {
                                     print("Document added")
+                                    self.dismiss(animated: true, completion: nil)
                                 }
                             }
                             user_posts.append(self.db.collection("posts").document(fileName))
@@ -101,7 +105,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
               }
             }
         }
-        self.dismiss(animated: true, completion: nil)
+        
     }
 }
         
