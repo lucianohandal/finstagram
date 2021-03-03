@@ -87,7 +87,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                                 "id": fileName,
                                 "downloadURL": "\(downloadURL)",
                                 "caption": self.commentField.text ?? "",
-                                "timestamp": NSDate()
+                                "timestamp": NSDate(),
+                                "comments": []
                             ]) { err in
                                 if let err = err {
                                     print("Error adding document: \(err)")
